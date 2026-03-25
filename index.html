@@ -704,6 +704,35 @@
 <p>© 2025 Artemis Portfolio. All missions classified.</p>
 </div>
 </footer>
+        
+<link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+<script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+<df-messenger
+  project-id="krcdev"
+  agent-id="cb63644b-b40e-4194-8ce9-933774c39634"
+  language-code="en"
+  max-query-length="-1"
+  allow-feedback="all"
+        event="WELCOME">
+  <df-messenger-chat-bubble
+    chat-title="Kenya Re"
+    chat-title-icon="https://storage.cloud.google.com/websitedatare25/logo2-removebg-preview.png">
+  </df-messenger-chat-bubble>
+</df-messenger>
+<style>
+  df-messenger {
+    z-index: 999;
+    position: fixed;
+    --df-messenger-font-color: #000;
+    --df-messenger-font-family: Roboto;
+    --df-messenger-chat-background: #f3f6fc;
+    --df-messenger-message-user-background: #d3e3fd;
+    --df-messenger-message-bot-background: #fff;
+    bottom: 16px;
+    right: 16px;
+  }
+</style>
+        
 <script>
         // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
